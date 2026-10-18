@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main()
+{
+    int i,units,total=0;
+    clrscr();
+
+    for(i=1;i<=7;i++)
+    {
+        printf("Enter units for day %d: ",i);
+        scanf("%d",&units);
+        total=total+units;
+    }
+
+    printf("Total units = %d",total);
+    getch();
+}
