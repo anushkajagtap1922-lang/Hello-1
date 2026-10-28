@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+void main()
+{
+    int i;
+
+    for(i = 0; i <= 100; i = i + 20)
+    {
+        printf("Robot Battery: %d%%\n", i);
+    }
+
+    printf("Battery Fully Charged!");
+}
