@@ -1,0 +1,44 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+    int i;
+    clrscr();
+
+    printf("\n");
+
+    for(i=1; i<=5; i++)
+        printf("             *\n");
+
+    printf("          .  |  .\n");
+    printf("           \\ | /\n");
+    printf("          __|__\n");
+    printf("         /     \\\n");
+    printf("        /       \\\n");
+    printf("       /_________\\\n");
+    printf("       |  HAPPY  |\n");
+    printf("       | DIWALI  |\n");
+    printf("       |_________|\n");
+    printf("        \\       /\n");
+    printf("         \\_____/\n");
+    printf("            |\n");
+    printf("           / \\\n");
+
+    printf("\n");
+
+    for(i=1; i<=3; i++)
+        printf("       *  ");
+
+    printf("\n");
+    printf("      ( )     ( )     ( )\n");
+    printf("     /___\\   /___\\   /___\\\n");
+    printf("       |       |       |\n");
+
+    printf("\n");
+    printf("  *** MAY YOUR WORLD ***\n");
+    printf("  *** SHINE WITH JOY! ***\n");
+    printf("\n");
+
+    getch();
+}
